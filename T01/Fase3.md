@@ -91,7 +91,7 @@ Quines dades es copien i amb quina freqüència (separant Servidor/Clients i cr�
 
 ### 
 
-###  Backups **incrementals cada 4 hores** de BD Comptabilitat i Clients  Sistema de registre continu (*write-ahead log* o *transaction log shipping*)  Replicació del NAS local al cloud diàriament
+###  Backups **incrementals cada 4 hores** de BD Comptabilitat i Clients  Sistema de registre continu Replicació del NAS local al cloud diàriament
 
 ### **Com es garanteix l’RTO (4 hores)**
 
