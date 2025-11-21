@@ -168,7 +168,7 @@ Aquesta carpeta és la prova del teu progrés, el teu potencial i el teu futur c
 |---------------------------------------------------------------|-------------------------------------------------------------|
 | 📁 [T00](./tasques/T00)                                       | 📦 [P01](./productes/P01)                                   |
 | 📁 [T01](./tasques/T01)                                       | 📦 [P02](./productes/P02)                                   |
-| 📁 [T02](./tasques/T02)                                       | 📦 [P03](./productes/P03)                                   |
+| 📁 [T02](./T02)                                       | 📦 [P03](./productes/P03)                                   |
 | 📁 [T03](./tasques/T03)                                       |                                                             |
 | 📁 [T04](./tasques/T04)                                       |                                                             |
 | 📁 [T05](./tasques/T05)                                       |                                                             |
