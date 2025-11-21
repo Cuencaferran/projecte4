@@ -161,3 +161,24 @@ En acabar, hauràs creat:
 ✔️ Reflexió sobre sostenibilitat i economia circular
 
 Aquesta carpeta és la prova del teu progrés, el teu potencial i el teu futur com a professional IT. 🚀💼
+
+# TASQUES I PRODUCTES
+
+| Tasques                                                       | Productes                                                   |
+|---------------------------------------------------------------|-------------------------------------------------------------|
+| 📁 [T00](./tasques/T00)                                       | 📦 [P01](./productes/P01)                                   |
+| 📁 [T01](./tasques/T01)                                       | 📦 [P02](./productes/P02)                                   |
+| 📁 [T02](./tasques/T02)                                       | 📦 [P03](./productes/P03)                                   |
+| 📁 [T03](./tasques/T03)                                       |                                                             |
+| 📁 [T04](./tasques/T04)                                       |                                                             |
+| 📁 [T05](./tasques/T05)                                       |                                                             |
+| 📁 [T06](./tasques/T06)                                       |                                                             |
+| 📁 [T07](./tasques/T07)                                       |                                                             |
+| 📁 [T08](./tasques/T08)                                       |                                                             |
+| 📁 [T09](./tasques/T09)                                       |                                                             |
+| 📁 [T10](./tasques/T10)                                       |                                                             |
+| 📁 [T11](./tasques/T11)                                       |                                                             |
+| 📁 [T12](./tasques/T12)                                       |                                                             |
+| 📁 [T13](./tasques/T13)                                       |                                                             |
+| 📁 [T14](./tasques/T14)                                       |                                                             |
+| 📁 [T15](./tasques/T15)                                       |                                                             |
