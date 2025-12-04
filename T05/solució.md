@@ -103,6 +103,18 @@ I despres fem un “ scp .\.ssh\id_rsa.pub usuari@192.168.56.108:”
 
 sobretot fer aquesta comanda amb la ip corresponen. 
 
+![foto](img_t05blai/24cap.png)
+
+Fem un mkdir .ssh
+seguidament un touch .ssh/authorized_keys
+ls
+cat id_rsa.pub
+cat id_rsa.pub >> .ssh/authorized_keys
+
+![foto](img_t05blai/25cap.png)
+
+I despres de fer las comandas que s’han de fer a la màquina principal tornem a la màquina client i fem un ssh usuari@192.168.56.108 per veure que no et demana contrasenya per entrar. 
+
 
 
 
