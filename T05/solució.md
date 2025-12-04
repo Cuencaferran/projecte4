@@ -87,6 +87,27 @@ Fem un ping de la nostra ip a la terminal de la màquina client.
 
 Posem ssh al buscador per veure las ip’s funcionan.
 
+#VIDEO SSH AMB CLAU PÚBLICA I PRIVADA
+
+![foto](img_t05blai/21cap.png)
+
+Entrem a la terminal del client i fem un ssh-keygen -t rsa. 
+
+![foto](img_t05blai/22cap.png)
+
+Seguidament fem un ls .\.ssh\ per veure el directori i els lastwritetime i el length Name. 
+
+![foto](img_t05blai/23cap.png)
+
+I despres fem un “ scp .\.ssh\id_rsa.pub usuari@192.168.56.108:”
+
+sobretot fer aquesta comanda amb la ip corresponen. 
+
+
+
+
+
+
 
 
 
