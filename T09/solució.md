@@ -1,4 +1,4 @@
-#T09: Servidor fitxers Linux. NFS (tasca individual)
+# T09: Servidor fitxers Linux. NFS (tasca individual)
 
 ![foto](img_t09carles/1cap.png)
 
