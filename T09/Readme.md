@@ -1,4 +1,4 @@
-🗂️ T09: Servidor de fitxers Linux — NFS (tasca individual)
+# 🗂️ T09: Servidor de fitxers Linux — NFS (tasca individual)
 📌 Breu descripció
 
 Aquesta activitat consisteix en desplegar un servidor NFS (versió 3) i un client Linux per demostrar la centralització de dades en entorns Linux. Es treballarà amb usuaris locals, ja que el client no disposa d’un sistema d’autenticació centralitzat.
