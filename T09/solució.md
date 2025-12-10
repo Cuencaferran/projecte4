@@ -121,7 +121,6 @@ Fem un reboot de la màquina un cop acabat el fitxer
 
 ![foto](img_t09carles/27cap.png)
 
-Tornem a entrar a la terminal i fem un mount | grep nfs i ja haurem acabat la tasca del NFS completament i ben feta. 
-
+Tornem a entrar a la terminal i fem un mount | grep nfs. 
 
 
