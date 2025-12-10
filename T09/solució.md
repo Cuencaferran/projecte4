@@ -70,6 +70,14 @@ Fem un sudo apt upgrade només entrar a la màquina
 
 I instal·lem nfs-common amb la comanda sudo apt install nfs-common -y 
 
+![foto](img_t09carles/28cap.png)
+
+![foto](img_t09carles/29cap.png)
+
+![foto](img_t09carles/30cap.png)
+
+![foto](img_t09carles/31cap.png)
+
 ![foto](img_t09carles/15cap.png)
 
 Fem un sudo showmount -e 192.168.56.109 i podem veure desde la màquina del client que l’arxiu de exports esta be i et surten les linies que habias de afegir. 
