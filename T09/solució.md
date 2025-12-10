@@ -34,7 +34,8 @@ Fem sudo chown root:devs /srb/nfs/dev_projects i despres un sudo chmod 770 /srv/
 
 ![foto](img_t09carles/7cap.png)
 
-Ara fem al mateix amb la carpeta de admin_tools
+Ara fem al mateix amb la carpeta de admin_tools per mes tard tenir els permisos correctament
+
 
 ![foto](img_t09carles/8cap.png)
 
