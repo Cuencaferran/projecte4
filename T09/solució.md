@@ -72,11 +72,23 @@ I instal·lem nfs-common amb la comanda sudo apt install nfs-common -y
 
 ![foto](img_t09carles/28cap.png)
 
+Un cop acabada la màquina principal dins de la màquina del client hem de crear els grups devs i admins per quan iniciem la màquina client podem entrar desde aquests usuaris.
+
+
 ![foto](img_t09carles/29cap.png)
+
+Despres de crear els grups creem amb sudo useradd -m -u 1003 -g devs dev01 i al mateix amb admins admin01 creem els usuaris dins dels grups
 
 ![foto](img_t09carles/30cap.png)
 
+li posem una contrasenya segura en aquests dos usuaris i fem un reboot de la màquina. 
+
+
+
 ![foto](img_t09carles/31cap.png)
+
+I quan la tornem a inciar podrem veure que podrem inicia la màquina amb els dos usuaris creats anteriorment 
+
 
 ![foto](img_t09carles/15cap.png)
 
