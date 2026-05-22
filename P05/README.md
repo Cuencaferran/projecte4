@@ -16,7 +16,7 @@ A **EverPia** utilitzem GitHub com una plataforma potent per centralitzar, gesti
 
 Per garantir el bon funcionament de l'equip i facilitar les revisions, és **obligatori** que tots els membres mantinguin una estructura de carpetes i fitxers totalment uniforme i neta.
 
-## LINK REPOSITORY GITHUB PROJECTE 4
+## LINK REPOSITORY GITHUB PROJECTE 4:
 
 **[LINK PROJECTE3](https://github.com/Cuencaferran/projecte4)**
 
