@@ -18,7 +18,7 @@ Per garantir el bon funcionament de l'equip i facilitar les revisions, és **obl
 
 ## LINK REPOSITORY GITHUB PROJECTE 4:
 
-**[LINK PROJECTE3](https://github.com/Cuencaferran/projecte4)**
+**[LINK PROJECTE4](https://github.com/Cuencaferran/projecte4)**
 
 ---
 
