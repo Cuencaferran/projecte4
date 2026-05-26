@@ -162,24 +162,29 @@ En acabar, hauràs creat:
 
 Aquesta carpeta és la prova del teu progrés, el teu potencial i el teu futur com a professional IT. 🚀💼
 
-# TASQUES I PRODUCTES
+# Índex del Projecte 4
 
-| Tasques                                                       | Productes                                                   |
-|---------------------------------------------------------------|-------------------------------------------------------------|
-| 📁 [T00](./T00)                                       | 📦 [P01](./P01)                                   |
-| 📁 [T01](./T01)                                       | 📦 [P02](./P02)                                   |
-| 📁 [T02](./T02)                                       | 📦 [P03](./P03)                                   |
-| 📁 [T03](./T03)                                       | 📦 [P04](./P04)                                                              |
-| 📁 [T04](./T04)                                       | 📦 [P05](./P05)                                                               |
-| 📁 [T05](./T05)                                       |                                                             |
-| 📁 [T06](./T06)                                       |                                                             |
-| 📁 [T07](./T07)                                       |                                                             |
-| 📁 [T08](./T08)                                       |                                                             |
-| 📁 [T09](./T09)                                       |                                                             |
-| 📁 [T10](./T10)                                       |                                                             |
-| 📁 [T11](./T11)                                       |                                                             |
-| 📁 [T12](./T12)                                       |                                                             |
-| 📁 [T13](./T13)                                       |                                                             |
-| 📁 [T14](./T14)                                       |                                                             |
-| 📁 [T15](./T15)
-| 📁 [T16](./T16)                                      |                                                             |
+Fes clic en qualsevol dels punts per anar directament a la tasca corresponent:
+
+## 📌 Projectes (P)
+* [P01 GitHub. Treballant de forma col·laborativa forks i pull request](#p01-github-treballant-de-forma-col-laborativa-forks-i-pull-request)
+* [P02 Presentació i Projecció de la Maqueta web al Client](#p02-presentació-i-projecció-de-la-maqueta-web-al-client)
+* [P03 Kanban del projecte](#p03-kanban-del-projecte)
+
+---
+
+## 🛠️ Tasques (T)
+* [T01 còpies de seguretat. Estudi cas client (treball cooperatiu)](#t01-còpies-de-seguretat-estudi-cas-client-treball-cooperatiu)
+* [T02 còpies de seguretat. Cas pràctic](#t02-còpies-de-seguretat-cas-pràctic)
+* [T03 Pla de recuperació davant desastres imatges del sistema](#t03-pla-de-recuperació-davant-desastres-imatges-del-sistema)
+* [T04 Accés remot](#t04-accés-remot)
+* [T05 Accés Remot. Connexió via SSH (tasca individual)](#t05-accés-remot-connexió-via-ssh-tasca-individual)
+* [T06 Accés remot. Escriptori remot (RDP) (tasca individual)](#t06-accés-remot-escriptori-remot-rdp-tasca-individual)
+* [T07 Accés remot. Serveis d’assistència remota (tasca en parelles)](#t07-accés-remot-serveis-dassistència-remota-tasca-en-parelles)
+* [T08 Auditoria de Qualitat i Estandardització de Servidors (tasca individual)](#t08-auditoria-de-qualitat-i-estandardització-de-servidors-tasca-individual)
+* [T09 Servidor fitxers Linux. NFS (tasca individual)](#t09-servidor-fitxers-linux-nfs-tasca-individual)
+* [T10 Servidor impressió Linux. CUPS (tasca individual)](#t10-servidor-impressió-linux-cups-tasca-individual)
+* [T11 Introducció a Figma nocions bàsiques de disseny d’interfícies](#t11-introducció-a-figma-nocions-bàsiques-de-disseny-dinterfícies)
+* [T12 Fonaments del Disseny Web Comercial Landing Page + Procés de Checkout](#t12-fonaments-del-disseny-web-comercial-landing-page--procés-de-checkout)
+* [T13 Disseny d’un E-commerce en Figma (Landing Page + Checkout)](#t13-disseny-dun-e-commerce-en-figma-landing-page--checkout)
+* [T16 Crea el teu pla d’empresa TECH](#t16-crea-el-teu-pla-dempresa-tech)
