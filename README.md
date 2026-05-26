@@ -1,4 +1,4 @@
-# 🌌 EverPia 3: Sobreviure en una empresa IT
+## 🌌 EverPia 3: Sobreviure en una empresa IT
 El capítol final d’una trilogia que t’ha fet créixer com a persona i com a professional. 🚀
 
 Després de setmanes navegant pel ritme imprevisible d’una consultora tecnològica, arribes al darrer capítol de la saga EverPia.
@@ -181,4 +181,5 @@ Aquesta carpeta és la prova del teu progrés, el teu potencial i el teu futur c
 | 📁 [T12](./T12)                                       |                                                             |
 | 📁 [T13](./T13)                                       |                                                             |
 | 📁 [T14](./T14)                                       |                                                             |
-| 📁 [T15](./T15)                                       |                                                             |
+| 📁 [T15](./T15)
+| 📁 [T16](./T16)                                      |                                                             |

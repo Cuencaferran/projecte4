@@ -70,3 +70,7 @@ Al final de la sessió es respondran les preguntes del tribunal:
 2.  **Repartiu els temps** de paraula de forma equilibrada entre els membres de la parella.
 3.  **No navegueu massa ràpid;** doneu temps al client per absorbir la interfície.
 4.  *Recordeu:* Esteu venent una solució de negoci prest per ser validada!
+
+## LINK DE LA WEB FETA AMB FIGMA 
+
+**[LINK FIGMA](https://www.figma.com/design/H61VhInkINGuFTL6E8fiGX/IMPERIAL-TIME-RELLOTGES?node-id=0-1&p=f)**
