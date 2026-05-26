@@ -39,33 +39,48 @@ Tens **4 setmanes** per demostrar el que vals dins un entorn real de producció 
 
 ---
 
-## 🗺️ Índex Directe del Projecte 4
+# 📂 Índex del Projecte 4
 
-*Fes clic a qualsevol projecte o tasca per anar directament a la seva secció de desenvolupament:*
+Benvingut al repositori del **Projecte 4**. A continuació trobaràs l'índex interactiu amb l'accés directe a totes les carpetes de projectes (P) i tasques (T).
 
-### 📌 Projectes (P)
+---
 
-* [p01] [P01 GitHub: Treballant de forma col·laborativa (forks i pull requests)](https://www.google.com/search?q=%23p01-github-treballant-de-forma-col-laborativa-forks-i-pull-request)
-* [p02] [P02 Presentació i Projecció de la Maqueta web al Client](https://www.google.com/search?q=%23p02-presentaci%C3%B3-i-projecci%C3%B3-de-la-maqueta-web-al-client)
-* [p03] [P03 Kanban del projecte](https://www.google.com/search?q=%23p03-kanban-del-projecte)
+## 🚀 Projectes Principals
 
-### 🛠️ Tasques (T)
+* [**P01** GitHub. Treballant de forma col·laborativa forks i pull request](./P01%20GitHub.%20Treballant%20de%20forma%20col·laborativa%20forks%20i%20pull%20request/)
+* [**P02** Presentació i Projecció de la Maqueta web al Client](./P02%20Presentació%20i%20Projecció%20de%20la%20Maqueta%20web%20al%20Client/)
+* [**P03** Kanban del projecte](./P03%20Kanban%20del%20projecte/)
 
-* [t01] [T01 Còpies de seguretat: Estudi cas client (Treball cooperatiu)](https://www.google.com/search?q=%23t01-c%C3%B2pies-de-seguretat-estudi-cas-client-treball-cooperatiu)
-* [t02] [T02 Còpies de seguretat: Cas pràctic](https://www.google.com/search?q=%23t02-c%C3%B2pies-de-seguretat-cas-pr%C3%A0ctic)
-* [t03] [T03 Pla de recuperació davant desastres: Imatges del sistema](https://www.google.com/search?q=%23t03-pla-de-recuperaci%C3%B3-davant-desastres-imatges-del-sistema)
-* [t04] [T04 Accés remot: Conceptes generals](https://www.google.com/search?q=%23t04-acc%C3%A9s-remot)
-* [t05] [T05 Accés Remot: Connexió via SSH (Tasca individual)](https://www.google.com/search?q=%23t05-acc%C3%A9s-remot-connexi%C3%B3-via-ssh-tasca-individual)
-* [t06] [T06 Accés remot: Escriptori remot (RDP) (Tasca individual)](https://www.google.com/search?q=%23t06-acc%C3%A9s-remot-escriptori-remot-rdp-tasca-individual)
-* [t07] [T07 Accés remot: Serveis d’assistència remota (Tasca en parelles)](https://www.google.com/search?q=%23t07-acc%C3%A9s-remot-serveis-dassist%C3%A8ncia-remota-tasca-en-parelles)
-* [t08] [T08 Auditoria de Qualitat i Estandardització de Servidors (Tasca individual)](https://www.google.com/search?q=%23t08-auditoria-de-qualitat-i-estandarditzaci%C3%B3-de-servidors-tasca-individual)
-* [t09] [T09 Servidor de fitxers Linux: NFS (Tasca individual)](https://www.google.com/search?q=%23t09-servidor-fitxers-linux-nfs-tasca-individual)
-* [t10] [T10 Servidor d'impressió Linux: CUPS (Tasca individual)](https://www.google.com/search?q=%23t10-servidor-impressi%C3%B3-linux-cups-tasca-individual)
-* [t11] [T11 Introducció a Figma: Nocions bàsiques de disseny d’interfícies](https://www.google.com/search?q=%23t11-introducci%C3%B3-a-figma-nocions-b%C3%A0siques-de-disseny-dinterf%C3%ADcies)
-* [t12] [T12 Fonaments del Disseny Web Comercial: Landing Page + Checkout](https://www.google.com/search?q=%23t12-fonaments-del-disseny-web-comercial-landing-page--proc%C3%A9s-de-checkout)
-* [t13] [T13 Disseny d’un E-commerce en Figma (Landing Page + Checkout)](https://www.google.com/search?q=%23t13-disseny-dun-e-commerce-en-figma-landing-page--checkout)
-* [t16] [T16 Crea el teu pla d’empresa TECH](https://www.google.com/search?q=%23t16-crea-el-teu-pla-dempresa-tech)
+---
 
+## 📝 Tasques (Sistemes, Xarxes i Disseny)
+
+### 🛡️ Còpies de Seguretat i Recuperació
+* [**T01** Còpies de seguretat. Estudi cas client (treball cooperatiu)](./T01%20còpies%20de%20seguretat.%20Estudi%20cas%20client%20(treball%20cooperatiu)/)
+* [**T02** Còpies de seguretat. Cas pràctic](./T02%20còpies%20de%20seguretat.%20Cas%20pràctic/)
+* [**T03** Pla de recuperació davant desastres imatges del sistema](./T03%20Pla%20de%20recuperació%20davant%20desastres%20imatges%20del%20sistema/)
+
+### 🌐 Accés Remot
+* [**T04** Accés remot](./T04%20Accés%20remot/)
+* [**T05** Accés Remot. Connexió via SSH (tasca individual)](./T05%20Accés%20Remot.%20Connexió%20via%20SSH%20(tasca%20individual)/)
+* [**T06** Accés remot. Escriptori remot (RDP) (tasca individual)](./T06%20Accés%20remot.%20Escriptori%20remot%20(RDP)%20(tasca%20individual)/)
+* [**T07** Accés remot. Serveis d'assistència remota (tasca en parelles)](./T07%20Accés%20remot.%20Serveis%20d’assistència%20remota%20(tasca%20en%20parelles)/)
+
+### 🐧 Servidors i Qualitat
+* [**T08** Auditoria de Qualitat i Estandardització de Servidors (tasca individual)](./T08%20Auditoria%20de%20Qualitat%20i%20Estandardització%20de%20Servidors%20(tasca%20individual)/)
+* [**T09** Servidor fitxers Linux. NFS (tasca individual)](./T09%20Servidor%20fitxers%20Linux.%20NFS%20(tasca%20individual)/)
+* [**T10** Servidor impressió Linux. CUPS (tasca individual)](./T10%20Servidor%20impressió%20Linux.%20CUPS%20(tasca%20individual)/)
+
+### 🎨 Disseny Web i Figma
+* [**T11** Introducció a Figma: nocions bàsiques de disseny d'interfícies](./T11%20Introducció%20a%20Figma%20nocions%20bàsiques%20de%20disseny%20d’interfícies/)
+* [**T12** Fonaments del Disseny Web Comercial Landing Page + Procés de Checkout](./T12%20Fonaments%20del%20Disseny%20Web%20Comercial%20Landing%20Page%20+%20Procés%20de%20Checkout/)
+* [**T13** Disseny d'un E-commerce en Figma (Landing Page + Checkout)](./T13%20Disseny%20d’un%20E-commerce%20en%20Figma%20(Landing%20Page%20+%20Checkout)/)
+
+### 💼 Empresa
+* [**T16** Crea el teu pla d'empresa TECH](./T16%20Crea%20el%20teu%20pla%20d’empresa%20TECH/)
+
+---
+💡 *Nota: Si canvies el nom d'alguna carpeta, recorda actualitzar l'enllaç corresponent d'aquest fitxer.*
 ---
 
 ## 📂 Desenvolupament de Projectes i Tasques
