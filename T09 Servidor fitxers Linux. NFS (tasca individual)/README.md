@@ -1,95 +1,53 @@
-# 🗂️ T09: Servidor de fitxers Linux — NFS (tasca individual)
-📌 Breu descripció
+# Tasca 09: Servidor de Fitxers Linux — NFS (Tasca Individual) 📂🐧
 
-Aquesta activitat consisteix en desplegar un servidor NFS (versió 3) i un client Linux per demostrar la centralització de dades en entorns Linux. Es treballarà amb usuaris locals, ja que el client no disposa d’un sistema d’autenticació centralitzat.
+## 🏢 El Cas Client: DevOptimize Solutions
 
-🧩 Introducció
+El nostre client, **DevOptimize Solutions**, és una petita startup de desenvolupament de programari que treballa exclusivament en entorns Linux. Actualment s'enfronten a un problema crític: el codi font i els actius del projecte (documents de disseny, scripts) estan completament descontrolats. Cada desenvolupador treballa amb còpies locals, provocant errors constants de versions i una pèrdua d'eficiència massiva.
 
-L’empresa DevOptimize Solutions, una startup de desenvolupament de programari que treballa exclusivament amb Linux, pateix problemes de:
+Ens han contractat per implementar un **servidor de fitxers centralitzat**. Com que tot l'entorn és 100% Linux, la solució nativa més ràpida i eficient és **NFS** (*Network File System*).
 
-dispersió del codi font
+> ⚠️ **Condició clau del client:** DevOptimize Solutions **no** disposa d'un entorn d'autenticació centralitzada (com LDAP o Active Directory) i no té previst implementar-lo a curt termini. La demostració ha de reflectir aquesta realitat i evidenciar-ne les limitacions de seguretat de ID (`UID`/`GID`).
 
-documents duplicats
+---
 
-descontrol de versions
+## 🎯 Objectius de la Demostració (PoC)
 
-pèrdues d’eficiència
+La teva missió individual és muntar un laboratori amb un **Servidor NFS (NFSv3)** i un **Client Linux** per demostrar el control d'accés, la gestió de permisos i el comportament del sistema.
 
-Per solucionar-ho, ens han contractat per implantar un servidor de fitxers centralitzat.
+### 🖥️ 1. Configuració del Servidor
+- [ ] **Instal·lació:** Instalar els paquets del servidor NFS (`nfs-kernel-server`).
+- [ ] **Estructura:** Crear les carpetes compartides i simular els usuaris/grups locals del client.
+- [ ] **Permisos locals:** Assignar correctament els propietaris i permisos reals amb `chown` i `chmod`.
+- [ ] **Exportació:** Configurar el fitxer `/etc/exports` per definir quines IPs tenen accés i amb quines opcions.
 
-Atès que tot l’entorn és Linux, la solució òptima és:
+### 💻 2. Configuració del Client
+- [ ] **Instal·lació:** Instal·lar els paquets del client (`nfs-common`).
+- [ ] **Muntatge:** Crear els punts de muntatge locals i connectar-se als recursos compartits del servidor.
+- [ ] **Proves d'Accés:** Comprovar com actua el servidor quan es creen o modifiquen fitxers des del client segons l'usuari actiu.
 
-🔧 NFS (Network File System)
+---
 
-Solució nativa, ràpida i eficient per compartir fitxers en entorns Unix/Linux.
+## ⚙️ Opcions clau de `/etc/exports` a provar
 
-El client insisteix que no utilitza cap servei d’identitat centralitzat (LDAP, AD, etc.), així que la gestió d’usuaris serà local.
+| Opció | Descripció |
+| :--- | :--- |
+| **`rw` / `ro`** | Permet l'accés de lectura i escriptura, o només lectura. |
+| **`sync`** | Obliga al servidor a respondre a les peticions només quan els canvis s'han desat al disc (més segur). |
+| **`root_squash`** | Mapeja les peticions del `root` del client cap a un usuari anònim sense privilegis (`nobody`) per seguretat. |
+| **`no_root_squash`** | Permet al `root` del client mantenir els privilegis de `root` al servidor (perillós). |
+| **`all_squash`** | Mapeja **tots** els usuaris del client a un únic usuari anònim. |
 
-🎯 Objectiu de la tasca
+---
 
-Has de muntar una demostració funcional que inclogui:
+## 📚 Materials i Links de Suport
 
-🖥️ Servidor NFS
+* 📁 **Material propi del Moodle:** `UD5. AA1. NFS` (Disponible a la plataforma d'Aules / Moodle).
+* 🌐 [NFS (Parte 1): Instalación en un Servidor Ubuntu 20.04 LTS](https://somebooks.es/nfs-parte-1-instalacion-en-un-servidor-ubuntu-20-04-lts/) — *SomeBooks.es*
+* 🌐 [NFS (Parte 2): Instalación en un Cliente Ubuntu 20.04 LTS](https://somebooks.es/nfs-parte-2-instalacion-en-un-cliente-ubuntu-20-04-lts/) — *SomeBooks.es*
+* 🐧 [Network File System (NFS) Official Guide](https://documentation.ubuntu.com/server/how-to/networking/install-nfs/) — *Ubuntu Server Documentation*
 
-Instal·lació i configuració d’un servei NFSv3
+---
 
-Definició d’exports al fitxer /etc/exports
-
-Aplicació d'opcions de control d’accés (rw, ro, sync, no_root_squash...)
-
-💻 Client Linux
-
-Configuració del client NFS
-
-Muntatge del recurs compartit manualment i/o automàticament (fstab)
-
-👥 Usuaris i permisos
-
-Creació d’usuaris i grups per simular el client real
-
-Gestió de permisos amb:
-
-chmod
-
-chown
-
-corresponents UID/GID
-
-Demostració de com NFS gestiona els accessos sense autenticació centralitzada
-
-📁 Repositori de la tasca
-
-➡️ https://github.com/SMX2n/Projecte04-NFS
-
-Trobaràs tota la descripció completa i passos a seguir.
-
-📚 Materials i links de suport
-📘 Material del curs
-
-UD5. AA1. NFS
-(Disponible al Moodle del mòdul de Sistemes Operatius en Xarxa)
-
-🌐 Guies i tutorials recomanats
-
-Instal·lació del servidor NFS a Ubuntu 20.04 LTS
-Ruiz, P. (2021)
-https://somebooks.es/nfs-parte-1-instalacion-en-un-servidor-ubuntu-20-04-lts/
-
-Instal·lació del client NFS
-Ruiz, P. (2021)
-https://somebooks.es/nfs-parte-2-instalacion-en-un-cliente-ubuntu-20-04-lts/
-
-Documentació oficial d’Ubuntu Server — NFS
-https://documentation.ubuntu.com/server/how-to/networking/install-nfs/
-
-📝 Resultat esperat
-
-Un entorn funcional on es pugui demostrar al client:
-
-com es comparteixen carpetes via NFS
-
-com es controlen els accessos segons usuaris, grups i opcions d’exportació
-
-quines limitacions té un sistema sense autenticació centralitzada
-
-que el seu entorn podria millorar la coherència i eficiència del treball
+## 🛠️ Enllaç al Repositori del Detall de la Tasca
+Trobaràs el llistat detallat de les comprovacions exactes que has de fer i documentar en aquest repositori oficial de l'assignatura:
+🔗 [https://github.com/SMX2n/Projecte04-NFS](https://github.com/SMX2n/Projecte04-NFS)
